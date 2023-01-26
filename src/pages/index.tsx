@@ -3,7 +3,7 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import { Box, Button, Heading, HStack, Image, Stack, Text } from '@chakra-ui/react'
 import { Icon } from '@chakra-ui/react'
-import { HiCheckCircle } from "react-icons/Hi";
+import { HiCheckCircle } from "react-icons/hi";
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
