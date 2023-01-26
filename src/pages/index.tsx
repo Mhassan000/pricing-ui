@@ -20,7 +20,7 @@ export default function Home() {
 
           <Box w='100%' height={['345px','400px']} bg='#6B46C1'>
             <Box pt={['40px','60px']} textAlign={['left', 'center']} px='25px'>
-              <Heading color='#FFFFFF'> Simple pricing for your business </Heading>
+              <Heading color='#FFFFFF' > Simple pricing for your business </Heading>
               <Text color='#F7FAFC' pt={['12px', '20px']} fontWeight='400'>Plans that are carefully crafted to suit your business.</Text>
             </Box>
           </Box>
