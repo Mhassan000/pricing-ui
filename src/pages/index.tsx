@@ -45,18 +45,18 @@ export default function Home() {
             {/* <HStack><Icon as={HiCheckCircle} color='#6134C4' boxSize={6}/><Text>24/7 support and consulting</Text> </HStack> */}
           <Stack direction={['column','row']}  alignItems='center' justifyContent='center' fontWeight={700} fontSize={18} color='#171923' spacing={[8,20]} px={['20px','30px']} py={['30px','70px']} mb={[10,0]} >
              <HStack w={['100%',250]} spacing={6} alignItems='center'  justifyContent='start'>
-              <Image src='/Group.svg' alt='group.png' w={[9.5,12]} h={[9.5,12]} />
+              <Image src='/Group.svg' alt='group.png' w={[10,12]} h={[10,12]} />
               <Text>30 days money back
                  Guarantee</Text>
              </HStack>
 
              <HStack w={['100%',250]} spacing={6} alignItems='center'  justifyContent='start'>
-              <Image src='/second.svg' alt='group.png' w={[9.5,12]} h={[9.5,12]} />
+              <Image src='/second.svg' alt='group.png' w={[10,12]} h={[10,12]} />
               <Text>No setup fees 100% hassle-free</Text>
              </HStack>
 
              <HStack w={['100%',300]} spacing={6} alignItems='center'  justifyContent='start'>
-              <Image src='/arrow.svg' alt='group.png' w={[9.5,12]} h={[9.5,12]} />
+              <Image src='/arrow.svg' alt='group.png' w={[10,12]} h={[10,12]} />
               <Text>No monthly subscription Pay once and for all</Text>
              </HStack>
 
