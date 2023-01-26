@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-import { Box, Button, Heading, HStack, Stack, Text } from '@chakra-ui/react'
+import { Box, Button, Heading, HStack, Image, Stack, Text } from '@chakra-ui/react'
 import { Icon } from '@chakra-ui/react'
 import { HiCheckCircle } from "react-icons/Hi";
 const inter = Inter({ subsets: ['latin'] })
@@ -20,7 +20,7 @@ export default function Home() {
 
           <Box w='100%' height={['345px','400px']} bg='#6B46C1'>
             <Box pt={['40px','60px']} textAlign={['left', 'center']} px='25px'>
-              <Heading color='#FFFFFF' > Simple pricing for your business </Heading>
+              <Heading color='#FFFFFF'> Simple pricing for your business </Heading>
               <Text color='#F7FAFC' pt={['12px', '20px']} fontWeight='400'>Plans that are carefully crafted to suit your business.</Text>
             </Box>
           </Box>
@@ -42,7 +42,25 @@ export default function Home() {
                 </Stack>
               </Box>
             </Stack>
-            
+            {/* <HStack><Icon as={HiCheckCircle} color='#6134C4' boxSize={6}/><Text>24/7 support and consulting</Text> </HStack> */}
+          <Stack direction={['column','row']}  alignItems='center' justifyContent='center' fontWeight={700} fontSize={18} color='#171923' spacing={[8,20]} px={['20px','30px']} py={['30px','70px']}  >
+             <HStack w={['100%',250]} spacing={6} alignItems='center'  justifyContent='start'>
+              <Image src='/Group.svg' alt='group.png' w={[10,12]} h={[10,12]} />
+              <Text>30 days money back
+                 Guarantee</Text>
+             </HStack>
+
+             <HStack w={['100%',250]} spacing={6} alignItems='center'  justifyContent='start'>
+              <Image src='/second.svg' alt='group.png' w={[10,12]} h={[10,12]} />
+              <Text>No setup fees 100% hassle-free</Text>
+             </HStack>
+
+             <HStack w={['100%',300]} spacing={6} alignItems='center'  justifyContent='start'>
+              <Image src='/arrow.svg' alt='group.png' w={[10,12]} h={[10,12]} />
+              <Text>No monthly subscription Pay once and for all</Text>
+             </HStack>
+
+          </Stack>
           </Box>
         </Box>
       </main>
